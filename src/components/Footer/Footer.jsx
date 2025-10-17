@@ -26,7 +26,7 @@ const Footer = () => {
           {[
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
-            { name: "Experience", id: "experience" },
+
             { name: "Projects", id: "work" },
             { name: "Education", id: "education" },
           ].map((item, index) => (
@@ -59,23 +59,24 @@ const Footer = () => {
               icon: <FaInstagram />,
               link: "https://www.instagram.com/itz_sid_here_03?igsh=MXNidW9vNmFjcjkwMQ==",
             },
-          ].map((item,index)=>(
+          ].map((item, index) => (
             <a
-key={index}
-href={item.link}
-target='_blank'
-rel="noopener noreferrer"
-className="text-xl hover:text-purple-500 transition-transform transform hover:scale-110"
+              key={index}
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl hover:text-purple-500 transition-transform transform hover:scale-110"
             >
               {item.icon}
-              </a>
+            </a>
           ))}
         </div>
       </div>
       {/* Copyright */}
 
-      <p className="text-sm text-gray-400 mt-6 flex justify-center items-center">© 2025 S Sidharth Sankar. All rights reserved.</p>
-
+      <p className="text-sm text-gray-400 mt-6 flex justify-center items-center">
+        © 2025 S Sidharth Sankar. All rights reserved.
+      </p>
     </footer>
   );
 };
