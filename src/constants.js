@@ -64,7 +64,7 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-     
+
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Angular', logo: angularLogo },
@@ -115,181 +115,181 @@ export const SkillsInfo = [
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
-  ];
-  
-  export const education = [
-    {
-      id: 0,
-      img: trident,
-      school: "Trident Academy Of Technology",
-      date: "DEC 2021 - MAY 2025",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Bachelor's degree (BTech )in Computer Applications from Trident Academy Of Technology, Bhubaneswar. During my time at TAT, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Bachelor Of Technology - BTech",
-    },
-    {
-      id: 1,
-      img: vikash,
-      school: "Vikash Residential School",
-      date: "June 2019 - June 2021",
-      grade: "81%",
-      desc: "I completed my 12th grade in Science stream with a focus on Physics, Chemistry, and Mathematics. During my higher secondary studies, I built a strong foundation in analytical thinking and problem-solving. My coursework enhanced my logical reasoning skills and introduced me to the basics of computer science and technology. This phase of my education played a crucial role in shaping my interest in programming and software development, motivating me to pursue further studies in the field.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-   
-    {
-      id: 2,
-      img: sanskar,
-      school: "Sasnkar Public School",
-      date: "Apr 2017 - May 2019",
-      grade: "78.4%",
-      desc: "I completed my class 10 education from Sanskar Public School,Kamakhyanagar under the CBSE board.",
-      degree: "CBSE(X)",
-    },
-  ];
-  
-  export const projects = [
-    {
-      id: 0,
-      title: "E-COMMERCE WEB APP",
-      description:"....." ,
-     image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/ssidharthsankar03/E-COMMERCE-WEB/tree/master",
-      webapp: "https://e-commerce-web-c1wt.vercel.app",
-    },
-    {
-      id: 1,
-      title: "TEXT PLAYER",
-      description:
-        "Play with your text",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://ssidharthsankar03.github.io/my-app/",
-    },
-    {
-      id: 2,
-      title: "Movie Recommendation App",
-      description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://ssidharthsankar03.github.io/MovieApp/",
-    },
-    // {
-    //   id: 3,
-    //   title: "Email Validator NPM Package",
-    //   description:
-    //     "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    //   image: npmLogo,
-    //   tags: ["React JS", "Node.js", "NPM", "Validation"],
-    //   github: "https://github.com/codingmastr/cmtk-email-validator",
-    //   webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    // },
-    // {
-    //   id: 4,
-    //   title: "Task Reminder Chrome Extension Tool",
-    //   description:
-    //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    //   image: taskremLogo,
-    //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    // },
-    // {
-    //   id: 5,
-    //   title: "Webverse Digital",
-    //   description:
-    //     "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-    //   image: webverLogo,
-    //   tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-    //   github: "https://github.com/codingmastr/Webverse-Digital",
-    //   webapp: "https://webversedigital.com/",
-    // },
-    // {
-    //   id: 6,
-    //   title: "Coding Master",
-    //   description:
-    //     "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    //   image: cmLogo,
-    //   tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    //   github: "https://codingmasterweb.in/",
-    //   webapp: "https://codingmasterweb.in/",
-    // },
-    // {
-    //   id: 7,
-    //   title: "Image Search App",
-    //   description:
-    //     "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-    //   image: imagesearchLogo,
-    //   tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-    //   github: "https://github.com/codingmastr/Image-Search-App",
-    //   webapp: "https://imagsearch.netlify.app/",
-    // },
-    // {
-    //   id: 8,
-    //   title: "Image Background Remover",
-    //   description:
-    //     "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-    //   image: removebgLogo,
-    //   tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-    //   github: "https://github.com/codingmastr/Image-Background-Remover",
-    //   webapp: "https://removeyourbg.netlify.app/",
-    // },
-  ];  
+export const experiences = [
+  {
+    id: 0,
+    img: webverseLogo,
+    role: "Fullstack Developer",
+    company: "Webverse Digital",
+    date: "April 2024 - Present",
+    desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "TypeScript",
+      "Node JS",
+      "Tailwind CSS",
+      "MongoDb",
+      "Redux",
+      " Next Js",
+    ],
+  },
+  {
+    id: 1,
+    img: agcLogo,
+    role: "Fullstack Engineer",
+    company: "Agumentik Group of Companies",
+    date: "July 2023 - March 2024",
+    desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "JavaScript",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "SQL",
+    ],
+  },
+  {
+    id: 2,
+    img: newtonschoolLogo,
+    role: "Frontend Intern",
+    company: "Newton School",
+    date: "September 2021 - August 2022",
+    desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+    skills: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Bootstrap",
+      "Figma",
+      "Material UI",
+    ],
+  },
+];
+
+export const education = [
+  {
+    id: 0,
+    img: trident,
+    school: "Trident Academy Of Technology",
+    date: "DEC 2021 - MAY 2025",
+    grade: "7.81 CGPA",
+    desc: "I have completed my Bachelor's degree (BTech )in Computer Science And Engineering from Trident Academy Of Technology, Bhubaneswar. During my time at TAT, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at TAT has been instrumental in shaping my technical abilities and professional growth.",
+    degree: "Bachelor Of Technology - BTech",
+  },
+  {
+    id: 1,
+    img: vikash,
+    school: "Vikash Residential School",
+    date: "June 2019 - June 2021",
+    grade: "81%",
+    desc: "I completed my 12th grade in Science stream with a focus on Physics, Chemistry, and Mathematics. During my higher secondary studies, I built a strong foundation in analytical thinking and problem-solving. My coursework enhanced my logical reasoning skills and introduced me to the basics of computer science and technology. This phase of my education played a crucial role in shaping my interest in programming and software development, motivating me to pursue further studies in the field.",
+    degree: "CBSE(XII) - PCM with Computer Science",
+  },
+
+  {
+    id: 2,
+    img: sanskar,
+    school: "Sasnkar Public School",
+    date: "Apr 2017 - May 2019",
+    grade: "78.4%",
+    desc: "I completed my class 10 education from Sanskar Public School,Kamakhyanagar under the CBSE board.",
+    degree: "CBSE(X)",
+  },
+];
+
+export const projects = [
+  {
+    id: 0,
+    title: "E-COMMERCE WEB APP",
+    description: ".....",
+    image: githubdetLogo,
+    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+    github: "https://github.com/ssidharthsankar03/E-COMMERCE-WEB/tree/master",
+    webapp: "https://e-commerce-web-c1wt.vercel.app",
+  },
+  {
+    id: 1,
+    title: "TEXT PLAYER",
+    description:
+      "Play with your text",
+    image: csprepLogo,
+    tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/codingmastr/CSPrep",
+    webapp: "https://ssidharthsankar03.github.io/my-app/",
+  },
+  {
+    id: 2,
+    title: "Movie Recommendation App",
+    description:
+      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+    image: movierecLogo,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/codingmastr/Movie-Recommendation-App",
+    webapp: "https://ssidharthsankar03.github.io/MovieApp/",
+  },
+  // {
+  //   id: 3,
+  //   title: "Email Validator NPM Package",
+  //   description:
+  //     "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+  //   image: npmLogo,
+  //   tags: ["React JS", "Node.js", "NPM", "Validation"],
+  //   github: "https://github.com/codingmastr/cmtk-email-validator",
+  //   webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Task Reminder Chrome Extension Tool",
+  //   description:
+  //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+  //   image: taskremLogo,
+  //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
+  //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
+  //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Webverse Digital",
+  //   description:
+  //     "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
+  //   image: webverLogo,
+  //   tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
+  //   github: "https://github.com/codingmastr/Webverse-Digital",
+  //   webapp: "https://webversedigital.com/",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Coding Master",
+  //   description:
+  //     "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
+  //   image: cmLogo,
+  //   tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
+  //   github: "https://codingmasterweb.in/",
+  //   webapp: "https://codingmasterweb.in/",
+  // },
+  // {
+  //   id: 7,
+  //   title: "Image Search App",
+  //   description:
+  //     "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
+  //   image: imagesearchLogo,
+  //   tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
+  //   github: "https://github.com/codingmastr/Image-Search-App",
+  //   webapp: "https://imagsearch.netlify.app/",
+  // },
+  // {
+  //   id: 8,
+  //   title: "Image Background Remover",
+  //   description:
+  //     "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
+  //   image: removebgLogo,
+  //   tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
+  //   github: "https://github.com/codingmastr/Image-Background-Remover",
+  //   webapp: "https://removeyourbg.netlify.app/",
+  // },
+];  
